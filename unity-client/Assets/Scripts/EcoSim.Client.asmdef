@@ -1,0 +1,9 @@
+{
+  "name": "EcoSim.Client",
+  "references": [
+    "EcoSim.Contracts",
+    "EcoSim.Core",
+    "EcoSim.Gameplay",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ]
+}

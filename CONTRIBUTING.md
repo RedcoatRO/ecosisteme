@@ -1,0 +1,3 @@
+# Contributions
+
+Read AGENTS.md and the current phase prompt. Use one scoped change at a time, preserve contracts and avoid unrelated rewrites. Run bash tools/verify.sh; include its actual result and the tested commit when available. For Unity changes record pinned Editor logs, package-lock resolution and Android evidence separately. Do not edit NuGet lockfiles to conceal a restore failure. A dependency update must explain provenance and license, regenerate locks using the real tool, and rerun checks. Never commit generated binaries, Unity licenses, personal paths/credentials or fabricated measurements. There is no project-wide public license grant yet; the beneficiary has not chosen one.

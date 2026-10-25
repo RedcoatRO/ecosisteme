@@ -1,0 +1,8 @@
+{
+  "name": "EcoSim.Core",
+  "rootNamespace": "EcoSim.Core",
+  "references": [
+    "EcoSim.Contracts"
+  ],
+  "noEngineReferences": true
+}

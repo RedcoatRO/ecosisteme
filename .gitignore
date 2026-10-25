@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+unity-client/[Ll]ibrary/
+unity-client/[Tt]emp/
+unity-client/[Oo]bj/
+unity-client/[Ll]ogs/
+unity-client/[Uu]ser[Ss]ettings/
+unity-client/Assets/Generated/
+builds/
+TestResults/
+.local/
+*.user
+*.suo

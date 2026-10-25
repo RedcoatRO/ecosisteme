@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "ro.redcoat.ecosim.contracts": "file:../../src/EcoSim.Contracts",
+    "ro.redcoat.ecosim.core": "file:../../src/EcoSim.Core",
+    "ro.redcoat.ecosim.gameplay": "file:../../src/EcoSim.Gameplay",
+    "com.unity.render-pipelines.universal": "17.0.4",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.terrainphysics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0"
+  }
+}

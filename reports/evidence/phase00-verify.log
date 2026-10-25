@@ -1,0 +1,27 @@
+PASS: repository layout and engine boundaries
+test_invalid_target_stops_before_editor_launch (test_build_guards.BuildGuards.test_invalid_target_stops_before_editor_launch) ... ok
+test_missing_editor_fails_clearly (test_build_guards.BuildGuards.test_missing_editor_fails_clearly) ... ok
+test_missing_local_document_is_detected (test_documentation.DocumentationTests.test_missing_local_document_is_detected) ... ok
+test_readme_links_resolve (test_documentation.DocumentationTests.test_readme_links_resolve) ... ok
+test_engine_reference_is_rejected (test_layout.LayoutTests.test_engine_reference_is_rejected) ... ok
+test_missing_core_is_rejected (test_layout.LayoutTests.test_missing_core_is_rejected) ... ok
+test_no_dotnet_outputs_inside_unity_packages (test_layout.LayoutTests.test_no_dotnet_outputs_inside_unity_packages) ... ok
+test_repository_boundaries (test_layout.LayoutTests.test_repository_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.019s
+
+OK
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  EcoSim.Contracts -> /workspace/ecosisteme/.local/bin/EcoSim.Contracts/Release/netstandard2.1/EcoSim.Contracts.dll
+  EcoSim.Core -> /workspace/ecosisteme/.local/bin/EcoSim.Core/Release/netstandard2.1/EcoSim.Core.dll
+  EcoSim.Gameplay -> /workspace/ecosisteme/.local/bin/EcoSim.Gameplay/Release/netstandard2.1/EcoSim.Gameplay.dll
+  EcoSim.Tests -> /workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll
+Test run for /workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: /workspace/ecosisteme/TestResults/phase00.trx
+Results File: /workspace/ecosisteme/TestResults/phase00.trx
+
+Passed!  - Failed:     0, Passed:    39, Skipped:     0, Total:    39, Duration: 200 ms - EcoSim.Tests.dll (net10.0)
+tick=4; elapsed=2.0s; probe=1; x=2.0m; z=-3.0m; sample=3648046016

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="dc742380-6e94-4d26-b2f6-88909c3791ab" name="@5dfad4380f4c 2026-10-25 16:02:45" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-25T16:02:45.4504536+00:00" queuing="2026-10-25T16:02:45.4504537+00:00" start="2026-10-25T16:02:44.6992110+00:00" finish="2026-10-25T16:02:45.4987136+00:00" />
+  <TestSettings name="default" id="33bac50f-5d4e-4a61-9315-ae12a8cf9d4d">
+    <Deployment runDeploymentRoot="_5dfad4380f4c_2026-10-25_16_02_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bf6fe72b-c012-4d4f-aaf7-a3c32d4daae4" testId="895d4f3f-23f3-d3d2-5963-cd94dda034e1" testName="EcoSim.Tests.FoundationTests.ClockMatchesFixture" computerName="5dfad4380f4c" duration="00:00:00.0081891" startTime="2026-10-25T16:02:45.4196676+00:00" endTime="2026-10-25T16:02:45.4197232+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf6fe72b-c012-4d4f-aaf7-a3c32d4daae4" />
+    <UnitTestResult executionId="c767026f-f933-4c41-8095-3f5a95af39dc" testId="9176d9fd-a178-4f47-a146-479efa8bb242" testName="EcoSim.Tests.FoundationTests.AssembliesHaveNoUnityDependency" computerName="5dfad4380f4c" duration="00:00:00.0028076" startTime="2026-10-25T16:02:45.4193154+00:00" endTime="2026-10-25T16:02:45.4193791+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c767026f-f933-4c41-8095-3f5a95af39dc" />
+    <UnitTestResult executionId="0a3c2fc5-799c-43c6-bf30-723957c79f23" testId="c04e2878-50bc-c835-c437-b40d82f052be" testName="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: -1)" computerName="5dfad4380f4c" duration="00:00:00.0001463" startTime="2026-10-25T16:02:45.4172971+00:00" endTime="2026-10-25T16:02:45.4173625+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a3c2fc5-799c-43c6-bf30-723957c79f23" />
+    <UnitTestResult executionId="ab0e538e-ee15-4f10-b46a-a24cf8ed308a" testId="f43d04b2-4b26-89c2-2c4e-31ec02de04af" testName="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 1, major: 0, minor: 2)" computerName="5dfad4380f4c" duration="00:00:00.0003520" startTime="2026-10-25T16:02:45.4132873+00:00" endTime="2026-10-25T16:02:45.4133488+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab0e538e-ee15-4f10-b46a-a24cf8ed308a" />
+    <UnitTestResult executionId="8ad2f092-75b9-4a3a-a4d7-833f721ce9b8" testId="0529ca69-bd63-fae2-393a-ac9af46ea12d" testName="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: -1, minor: 0, patch: 0)" computerName="5dfad4380f4c" duration="00:00:00.0002527" startTime="2026-10-25T16:02:45.4165685+00:00" endTime="2026-10-25T16:02:45.4166249+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ad2f092-75b9-4a3a-a4d7-833f721ce9b8" />
+    <UnitTestResult executionId="b08af6a5-6f34-40ec-9c00-e8b60e268302" testId="e0d8a56f-c562-7db3-f1d7-8dc7a72d14eb" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;18446744073709551616&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0000130" startTime="2026-10-25T16:02:45.4125710+00:00" endTime="2026-10-25T16:02:45.4126215+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b08af6a5-6f34-40ec-9c00-e8b60e268302" />
+    <UnitTestResult executionId="c8080cb7-2ae7-4503-b83f-f55455079813" testId="cf726eca-d932-5819-7038-4b3cf9fa8e01" testName="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: 0, minor: -1, patch: 0)" computerName="5dfad4380f4c" duration="00:00:00.0002545" startTime="2026-10-25T16:02:45.4167261+00:00" endTime="2026-10-25T16:02:45.4167880+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8080cb7-2ae7-4503-b83f-f55455079813" />
+    <UnitTestResult executionId="5f796de8-d714-4121-bad7-ca78da904d8c" testId="88830ab2-4f92-6512-22b0-95d80d2dc668" testName="EcoSim.Tests.FoundationTests.ProbeUsesInclusiveBoundsAndPreservesClock" computerName="5dfad4380f4c" duration="00:00:00.0026814" startTime="2026-10-25T16:02:45.4215383+00:00" endTime="2026-10-25T16:02:45.4216033+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f796de8-d714-4121-bad7-ca78da904d8c" />
+    <UnitTestResult executionId="99812aac-3ff8-4761-a2a5-f43c2be7d8fb" testId="6441705a-2492-102f-434c-484332c3b591" testName="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: NaN)" computerName="5dfad4380f4c" duration="00:00:00.0000163" startTime="2026-10-25T16:02:45.4186789+00:00" endTime="2026-10-25T16:02:45.4187377+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99812aac-3ff8-4761-a2a5-f43c2be7d8fb" />
+    <UnitTestResult executionId="e1449815-8f3d-4389-a065-12628cf9451e" testId="22bb378e-8588-e1ca-c066-fb2a2c4c8f96" testName="EcoSim.Tests.FoundationTests.ConfigAcceptsMaximumBounds" computerName="5dfad4380f4c" duration="00:00:00.0038621" startTime="2026-10-25T16:02:45.3767268+00:00" endTime="2026-10-25T16:02:45.3767922+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1449815-8f3d-4389-a065-12628cf9451e" />
+    <UnitTestResult executionId="f1481682-29bb-4ba8-be71-d5a2b6e51d2e" testId="4e6b03ca-9b12-a9ee-0338-ae347b5f0709" testName="EcoSim.Tests.FoundationTests.NullConfigAndZeroSeedAreRejected" computerName="5dfad4380f4c" duration="00:00:00.0005135" startTime="2026-10-25T16:02:45.4211334+00:00" endTime="2026-10-25T16:02:45.4211988+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1481682-29bb-4ba8-be71-d5a2b6e51d2e" />
+    <UnitTestResult executionId="e47f3e0a-8929-4e1b-b203-42aca07f9110" testId="28612d42-16d8-6a64-0cc2-33b110fae9ac" testName="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: Infinity)" computerName="5dfad4380f4c" duration="00:00:00.0000083" startTime="2026-10-25T16:02:45.4188553+00:00" endTime="2026-10-25T16:02:45.4189130+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47f3e0a-8929-4e1b-b203-42aca07f9110" />
+    <UnitTestResult executionId="cf773327-34da-4c02-97ce-e4821fcb8922" testId="6c1b2fed-ce48-51ea-cdab-b4112027cb62" testName="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 0, z: -10.000999999999999)" computerName="5dfad4380f4c" duration="00:00:00.0037846" startTime="2026-10-25T16:02:45.4157977+00:00" endTime="2026-10-25T16:02:45.4158660+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf773327-34da-4c02-97ce-e4821fcb8922" />
+    <UnitTestResult executionId="59432fee-1691-400f-b4ce-ca1729be3a53" testId="ff31bf66-2964-ebd1-d547-625815e119cc" testName="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: 0, minor: 0, patch: -1)" computerName="5dfad4380f4c" duration="00:00:00.0000124" startTime="2026-10-25T16:02:45.4168942+00:00" endTime="2026-10-25T16:02:45.4169510+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59432fee-1691-400f-b4ce-ca1729be3a53" />
+    <UnitTestResult executionId="7dd35e6f-0cca-493e-afac-ed25349f3b73" testId="81ad9a4c-98ba-3ada-fb41-5beed9fadf38" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;1.5&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0001084" startTime="2026-10-25T16:02:45.4128734+00:00" endTime="2026-10-25T16:02:45.4129306+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dd35e6f-0cca-493e-afac-ed25349f3b73" />
+    <UnitTestResult executionId="622bc18e-f91a-4565-be57-0c87e50ecafb" testId="0fe26c6b-5ca7-ffcc-3174-99266b1a2e0e" testName="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: -Infinity)" computerName="5dfad4380f4c" duration="00:00:00.0000133" startTime="2026-10-25T16:02:45.3760681+00:00" endTime="2026-10-25T16:02:45.3761202+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="622bc18e-f91a-4565-be57-0c87e50ecafb" />
+    <UnitTestResult executionId="02e3ad57-57bd-44fa-b448-ce4fb7e95c1f" testId="5f658db1-2c6f-11b9-86fa-adf252dc07b9" testName="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: 0)" computerName="5dfad4380f4c" duration="00:00:00.0002265" startTime="2026-10-25T16:02:45.3758790+00:00" endTime="2026-10-25T16:02:45.3759365+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02e3ad57-57bd-44fa-b448-ce4fb7e95c1f" />
+    <UnitTestResult executionId="7b379d44-79c7-42b1-ab92-e18f9f32eaec" testId="6f3614f5-b6c9-bf4f-286d-8c5117a34ff9" testName="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: 0)" computerName="5dfad4380f4c" duration="00:00:00.0002262" startTime="2026-10-25T16:02:45.4171390+00:00" endTime="2026-10-25T16:02:45.4171948+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b379d44-79c7-42b1-ab92-e18f9f32eaec" />
+    <UnitTestResult executionId="bcb8506d-3d3c-4241-98de-0a97a879f395" testId="96039d29-442c-1bfe-7d73-ecbab9a16db4" testName="EcoSim.Tests.FoundationTests.StableIdRoundTripsWithoutPrecisionLoss(text: &quot;1&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0039644" startTime="2026-10-25T16:02:45.3491738+00:00" endTime="2026-10-25T16:02:45.3619187+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcb8506d-3d3c-4241-98de-0a97a879f395" />
+    <UnitTestResult executionId="ed1b4838-2d8e-4be1-89b6-bb4c51b7b3d3" testId="83eb4606-4e1b-a87c-ad71-87be3df686be" testName="EcoSim.Tests.FoundationTests.StableIdRoundTripsWithoutPrecisionLoss(text: &quot;18446744073709551615&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0001531" startTime="2026-10-25T16:02:45.3740978+00:00" endTime="2026-10-25T16:02:45.3742131+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed1b4838-2d8e-4be1-89b6-bb4c51b7b3d3" />
+    <UnitTestResult executionId="77ed1d9d-554e-4643-a961-f5fdfbefb2eb" testId="6576e316-1fb7-8179-0f8f-edb4521ad491" testName="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: 10001)" computerName="5dfad4380f4c" duration="00:00:00.0000156" startTime="2026-10-25T16:02:45.3762894+00:00" endTime="2026-10-25T16:02:45.3763476+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77ed1d9d-554e-4643-a961-f5fdfbefb2eb" />
+    <UnitTestResult executionId="cebc533e-4f45-4e6c-80e2-9c1afc6278ea" testId="487e285f-ab60-54b8-51d5-9c7a13729419" testName="EcoSim.Tests.FoundationTests.XorshiftMatchesKnownVectorAndSeedsDiffer" computerName="5dfad4380f4c" duration="00:00:00.0034779" startTime="2026-10-25T16:02:45.4191016+00:00" endTime="2026-10-25T16:02:45.4191737+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cebc533e-4f45-4e6c-80e2-9c1afc6278ea" />
+    <UnitTestResult executionId="76335f14-4bab-4b55-8bb0-cf55cc4436e4" testId="5761f52c-359d-7d47-0b22-463c4931bbe5" testName="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: 60.000999999999998)" computerName="5dfad4380f4c" duration="00:00:00.0000158" startTime="2026-10-25T16:02:45.4184862+00:00" endTime="2026-10-25T16:02:45.4185579+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76335f14-4bab-4b55-8bb0-cf55cc4436e4" />
+    <UnitTestResult executionId="378987e8-6eeb-4db3-8339-92f075f45fbd" testId="5bbe7df3-283e-10c3-1b8b-028fe14cf334" testName="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: NaN, z: 0)" computerName="5dfad4380f4c" duration="00:00:00.0002991" startTime="2026-10-25T16:02:45.4160201+00:00" endTime="2026-10-25T16:02:45.4160843+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="378987e8-6eeb-4db3-8339-92f075f45fbd" />
+    <UnitTestResult executionId="bcd211b7-86b3-4605-a10f-aaa523e6e9f9" testId="790d8b1f-634a-22a9-16da-5e93e9d7deac" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0002556" startTime="2026-10-25T16:02:45.4119418+00:00" endTime="2026-10-25T16:02:45.4120745+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcd211b7-86b3-4605-a10f-aaa523e6e9f9" />
+    <UnitTestResult executionId="7ec16acc-5eab-46b5-9556-7d2f1caa62b7" testId="d5368fc7-c786-6641-b2a4-5ee18a013ec8" testName="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 1, major: 1, minor: 0)" computerName="5dfad4380f4c" duration="00:00:00.0007311" startTime="2026-10-25T16:02:45.4131338+00:00" endTime="2026-10-25T16:02:45.4131892+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ec16acc-5eab-46b5-9556-7d2f1caa62b7" />
+    <UnitTestResult executionId="40d032df-0478-4be4-abb7-4276f9fe318b" testId="0af63270-c2bc-f018-db97-44d18e0bdac3" testName="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 10.000999999999999, z: 0)" computerName="5dfad4380f4c" duration="00:00:00.0000231" startTime="2026-10-25T16:02:45.4161909+00:00" endTime="2026-10-25T16:02:45.4162435+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40d032df-0478-4be4-abb7-4276f9fe318b" />
+    <UnitTestResult executionId="28e67cee-10df-41d9-854e-8ee0b3521b04" testId="586741fa-2cb4-cedc-b097-6fc88f80502a" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot; 1&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0000063" startTime="2026-10-25T16:02:45.4127153+00:00" endTime="2026-10-25T16:02:45.4127745+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28e67cee-10df-41d9-854e-8ee0b3521b04" />
+    <UnitTestResult executionId="077d55a4-1b37-44b7-b825-d47f657ea483" testId="908eac1a-155d-0759-13f6-d3ec08414f55" testName="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 0, major: 0, minor: 1)" computerName="5dfad4380f4c" duration="00:00:00.0000143" startTime="2026-10-25T16:02:45.4134542+00:00" endTime="2026-10-25T16:02:45.4135062+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077d55a4-1b37-44b7-b825-d47f657ea483" />
+    <UnitTestResult executionId="53322d2c-929e-4043-bcb0-1338ac231d78" testId="ba06b205-191c-b4b4-9db8-457ad92c84bd" testName="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: NaN)" computerName="5dfad4380f4c" duration="00:00:00.0011532" startTime="2026-10-25T16:02:45.3756575+00:00" endTime="2026-10-25T16:02:45.3757543+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53322d2c-929e-4043-bcb0-1338ac231d78" />
+    <UnitTestResult executionId="6bfdc000-7ff7-494d-8d29-f3cf0c770a9d" testId="d9274d07-8354-f7c5-e605-570528c6992d" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;-1&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0000115" startTime="2026-10-25T16:02:45.4123947+00:00" endTime="2026-10-25T16:02:45.4124481+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bfdc000-7ff7-494d-8d29-f3cf0c770a9d" />
+    <UnitTestResult executionId="eab46e60-9adc-4094-85dd-1bae19ace301" testId="1659b24a-72eb-e13b-fedf-6ac17ffc36b9" testName="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;0&quot;)" computerName="5dfad4380f4c" duration="00:00:00.0003015" startTime="2026-10-25T16:02:45.3769247+00:00" endTime="2026-10-25T16:02:45.3769785+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eab46e60-9adc-4094-85dd-1bae19ace301" />
+    <UnitTestResult executionId="6d461857-b2e1-4b98-9238-88b3002ff61e" testId="42efb4a2-0945-1a23-bc99-8cc2bca3bfb0" testName="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 2, major: 0, minor: 1)" computerName="5dfad4380f4c" duration="00:00:00.0000076" startTime="2026-10-25T16:02:45.4136157+00:00" endTime="2026-10-25T16:02:45.4136696+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d461857-b2e1-4b98-9238-88b3002ff61e" />
+    <UnitTestResult executionId="f5e0a1df-23ac-4dd6-ae47-efe622dad8e2" testId="3ed3e914-6119-082e-bb19-a66543abd3fc" testName="EcoSim.Tests.FoundationTests.PausedSessionDoesNotAdvanceButAcceptsInput" computerName="5dfad4380f4c" duration="00:00:00.0005904" startTime="2026-10-25T16:02:45.4213517+00:00" endTime="2026-10-25T16:02:45.4214084+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5e0a1df-23ac-4dd6-ae47-efe622dad8e2" />
+    <UnitTestResult executionId="24911442-a7de-489a-ac10-38db909cfbf6" testId="da1697cf-004f-0d82-e342-5c050a3176b6" testName="EcoSim.Tests.FoundationTests.ZeroIdCannotBeConstructed" computerName="5dfad4380f4c" duration="00:00:00.0001916" startTime="2026-10-25T16:02:45.4200952+00:00" endTime="2026-10-25T16:02:45.4201489+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24911442-a7de-489a-ac10-38db909cfbf6" />
+    <UnitTestResult executionId="dcc725c3-0d84-4c8b-b729-cee044e98865" testId="2eb7e4fa-d6fb-8e13-76b5-c4888089fd3d" testName="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 0, z: Infinity)" computerName="5dfad4380f4c" duration="00:00:00.0000167" startTime="2026-10-25T16:02:45.4163520+00:00" endTime="2026-10-25T16:02:45.4164145+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcc725c3-0d84-4c8b-b729-cee044e98865" />
+    <UnitTestResult executionId="081f00f3-61db-4e51-a13e-bffc2208231b" testId="80d8f002-9c9a-dbb8-dc80-4012c752f04c" testName="EcoSim.Tests.FoundationTests.CurrentSaveAndOlderCompatibleMinorAreReadable" computerName="5dfad4380f4c" duration="00:00:00.0000619" startTime="2026-10-25T16:02:45.4202841+00:00" endTime="2026-10-25T16:02:45.4203445+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="081f00f3-61db-4e51-a13e-bffc2208231b" />
+    <UnitTestResult executionId="f7dcfd64-236f-4711-ad5c-7b8b358d2c96" testId="1a4f4190-28da-c3b0-55c8-00747bd4c8e6" testName="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: -1)" computerName="5dfad4380f4c" duration="00:00:00.0000119" startTime="2026-10-25T16:02:45.3764681+00:00" endTime="2026-10-25T16:02:45.3765454+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7dcfd64-236f-4711-ad5c-7b8b358d2c96" />
+    <UnitTestResult executionId="12c4c610-765b-4761-b5a8-9804a224e2a8" testId="ab868924-a030-6779-1b1d-4fd326af7b1f" testName="EcoSim.Tests.FoundationTests.SameSeedAndOrderedCommandsReplayExactly" computerName="5dfad4380f4c" duration="00:00:00.0025464" startTime="2026-10-25T16:02:45.4198737+00:00" endTime="2026-10-25T16:02:45.4199256+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12c4c610-765b-4761-b5a8-9804a224e2a8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="EcoSim.Tests.FoundationTests.CurrentSaveAndOlderCompatibleMinorAreReadable" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="80d8f002-9c9a-dbb8-dc80-4012c752f04c">
+      <Execution id="081f00f3-61db-4e51-a13e-bffc2208231b" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="CurrentSaveAndOlderCompatibleMinorAreReadable" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: 0, minor: -1, patch: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="cf726eca-d932-5819-7038-4b3cf9fa8e01">
+      <Execution id="c8080cb7-2ae7-4503-b83f-f55455079813" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="NegativeSchemaIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;0&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="1659b24a-72eb-e13b-fedf-6ac17ffc36b9">
+      <Execution id="eab46e60-9adc-4094-85dd-1bae19ace301" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="790d8b1f-634a-22a9-16da-5e93e9d7deac">
+      <Execution id="bcd211b7-86b3-4605-a10f-aaa523e6e9f9" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 10.000999999999999, z: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="0af63270-c2bc-f018-db97-44d18e0bdac3">
+      <Execution id="40d032df-0478-4be4-abb7-4276f9fe318b" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidProbeCommandDoesNotMutateState" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="5f658db1-2c6f-11b9-86fa-adf252dc07b9">
+      <Execution id="02e3ad57-57bd-44fa-b448-ce4fb7e95c1f" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidExtentIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;-1&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="d9274d07-8354-f7c5-e605-570528c6992d">
+      <Execution id="6bfdc000-7ff7-494d-8d29-f3cf0c770a9d" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 1, major: 1, minor: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="d5368fc7-c786-6641-b2a4-5ee18a013ec8">
+      <Execution id="7ec16acc-5eab-46b5-9556-7d2f1caa62b7" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="IncompatibleSaveIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.StableIdRoundTripsWithoutPrecisionLoss(text: &quot;1&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="96039d29-442c-1bfe-7d73-ecbab9a16db4">
+      <Execution id="bcb8506d-3d3c-4241-98de-0a97a879f395" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="StableIdRoundTripsWithoutPrecisionLoss" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.SameSeedAndOrderedCommandsReplayExactly" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="ab868924-a030-6779-1b1d-4fd326af7b1f">
+      <Execution id="12c4c610-765b-4761-b5a8-9804a224e2a8" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="SameSeedAndOrderedCommandsReplayExactly" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: 60.000999999999998)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="5761f52c-359d-7d47-0b22-463c4931bbe5">
+      <Execution id="76335f14-4bab-4b55-8bb0-cf55cc4436e4" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidTimeStepIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: NaN)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="6441705a-2492-102f-434c-484332c3b591">
+      <Execution id="99812aac-3ff8-4761-a2a5-f43c2be7d8fb" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidTimeStepIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: -1, minor: 0, patch: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="0529ca69-bd63-fae2-393a-ac9af46ea12d">
+      <Execution id="8ad2f092-75b9-4a3a-a4d7-833f721ce9b8" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="NegativeSchemaIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 0, major: 0, minor: 1)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="908eac1a-155d-0759-13f6-d3ec08414f55">
+      <Execution id="077d55a4-1b37-44b7-b825-d47f657ea483" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="IncompatibleSaveIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.PausedSessionDoesNotAdvanceButAcceptsInput" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="3ed3e914-6119-082e-bb19-a66543abd3fc">
+      <Execution id="f5e0a1df-23ac-4dd6-ae47-efe622dad8e2" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="PausedSessionDoesNotAdvanceButAcceptsInput" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.ConfigAcceptsMaximumBounds" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="22bb378e-8588-e1ca-c066-fb2a2c4c8f96">
+      <Execution id="e1449815-8f3d-4389-a065-12628cf9451e" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="ConfigAcceptsMaximumBounds" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.ProbeUsesInclusiveBoundsAndPreservesClock" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="88830ab2-4f92-6512-22b0-95d80d2dc668">
+      <Execution id="5f796de8-d714-4121-bad7-ca78da904d8c" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="ProbeUsesInclusiveBoundsAndPreservesClock" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 0, z: Infinity)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="2eb7e4fa-d6fb-8e13-76b5-c4888089fd3d">
+      <Execution id="dcc725c3-0d84-4c8b-b729-cee044e98865" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidProbeCommandDoesNotMutateState" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 2, major: 0, minor: 1)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="42efb4a2-0945-1a23-bc99-8cc2bca3bfb0">
+      <Execution id="6d461857-b2e1-4b98-9238-88b3002ff61e" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="IncompatibleSaveIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: Infinity)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="28612d42-16d8-6a64-0cc2-33b110fae9ac">
+      <Execution id="e47f3e0a-8929-4e1b-b203-42aca07f9110" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidTimeStepIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: NaN)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="ba06b205-191c-b4b4-9db8-457ad92c84bd">
+      <Execution id="53322d2c-929e-4043-bcb0-1338ac231d78" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidExtentIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.AssembliesHaveNoUnityDependency" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="9176d9fd-a178-4f47-a146-479efa8bb242">
+      <Execution id="c767026f-f933-4c41-8095-3f5a95af39dc" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="AssembliesHaveNoUnityDependency" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: NaN, z: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="5bbe7df3-283e-10c3-1b8b-028fe14cf334">
+      <Execution id="378987e8-6eeb-4db3-8339-92f075f45fbd" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidProbeCommandDoesNotMutateState" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: -1)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="c04e2878-50bc-c835-c437-b40d82f052be">
+      <Execution id="0a3c2fc5-799c-43c6-bf30-723957c79f23" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidTimeStepIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.ClockMatchesFixture" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="895d4f3f-23f3-d3d2-5963-cd94dda034e1">
+      <Execution id="bf6fe72b-c012-4d4f-aaf7-a3c32d4daae4" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="ClockMatchesFixture" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.XorshiftMatchesKnownVectorAndSeedsDiffer" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="487e285f-ab60-54b8-51d5-9c7a13729419">
+      <Execution id="cebc533e-4f45-4e6c-80e2-9c1afc6278ea" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="XorshiftMatchesKnownVectorAndSeedsDiffer" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.NegativeSchemaIsRejected(major: 0, minor: 0, patch: -1)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="ff31bf66-2964-ebd1-d547-625815e119cc">
+      <Execution id="59432fee-1691-400f-b4ce-ca1729be3a53" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="NegativeSchemaIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.StableIdRoundTripsWithoutPrecisionLoss(text: &quot;18446744073709551615&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="83eb4606-4e1b-a87c-ad71-87be3df686be">
+      <Execution id="ed1b4838-2d8e-4be1-89b6-bb4c51b7b3d3" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="StableIdRoundTripsWithoutPrecisionLoss" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;1.5&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="81ad9a4c-98ba-3ada-fb41-5beed9fadf38">
+      <Execution id="7dd35e6f-0cca-493e-afac-ed25349f3b73" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: -Infinity)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="0fe26c6b-5ca7-ffcc-3174-99266b1a2e0e">
+      <Execution id="622bc18e-f91a-4565-be57-0c87e50ecafb" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidExtentIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.ZeroIdCannotBeConstructed" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="da1697cf-004f-0d82-e342-5c050a3176b6">
+      <Execution id="24911442-a7de-489a-ac10-38db909cfbf6" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="ZeroIdCannotBeConstructed" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: -1)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="1a4f4190-28da-c3b0-55c8-00747bd4c8e6">
+      <Execution id="f7dcfd64-236f-4711-ad5c-7b8b358d2c96" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidExtentIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot; 1&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="586741fa-2cb4-cedc-b097-6fc88f80502a">
+      <Execution id="28e67cee-10df-41d9-854e-8ee0b3521b04" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.NullConfigAndZeroSeedAreRejected" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="4e6b03ca-9b12-a9ee-0338-ae347b5f0709">
+      <Execution id="f1481682-29bb-4ba8-be71-d5a2b6e51d2e" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="NullConfigAndZeroSeedAreRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidProbeCommandDoesNotMutateState(x: 0, z: -10.000999999999999)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="6c1b2fed-ce48-51ea-cdab-b4112027cb62">
+      <Execution id="cf773327-34da-4c02-97ce-e4821fcb8922" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidProbeCommandDoesNotMutateState" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.IncompatibleSaveIsRejected(format: 1, major: 0, minor: 2)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="f43d04b2-4b26-89c2-2c4e-31ec02de04af">
+      <Execution id="ab0e538e-ee15-4f10-b46a-a24cf8ed308a" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="IncompatibleSaveIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidExtentIsRejected(extent: 10001)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="6576e316-1fb7-8179-0f8f-edb4521ad491">
+      <Execution id="77ed1d9d-554e-4643-a961-f5fdfbefb2eb" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidExtentIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidIdIsRejected(text: &quot;18446744073709551616&quot;)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="e0d8a56f-c562-7db3-f1d7-8dc7a72d14eb">
+      <Execution id="b08af6a5-6f34-40ec-9c00-e8b60e268302" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidIdIsRejected" />
+    </UnitTest>
+    <UnitTest name="EcoSim.Tests.FoundationTests.InvalidTimeStepIsRejected(seconds: 0)" storage="/workspace/ecosisteme/.local/bin/ecosim.tests/release/net10.0/ecosim.tests.dll" id="6f3614f5-b6c9-bf4f-286d-8c5117a34ff9">
+      <Execution id="7b379d44-79c7-42b1-ab92-e18f9f32eaec" />
+      <TestMethod codeBase="/workspace/ecosisteme/.local/bin/EcoSim.Tests/Release/net10.0/EcoSim.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="EcoSim.Tests.FoundationTests" name="InvalidTimeStepIsRejected" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="895d4f3f-23f3-d3d2-5963-cd94dda034e1" executionId="bf6fe72b-c012-4d4f-aaf7-a3c32d4daae4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9176d9fd-a178-4f47-a146-479efa8bb242" executionId="c767026f-f933-4c41-8095-3f5a95af39dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c04e2878-50bc-c835-c437-b40d82f052be" executionId="0a3c2fc5-799c-43c6-bf30-723957c79f23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f43d04b2-4b26-89c2-2c4e-31ec02de04af" executionId="ab0e538e-ee15-4f10-b46a-a24cf8ed308a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0529ca69-bd63-fae2-393a-ac9af46ea12d" executionId="8ad2f092-75b9-4a3a-a4d7-833f721ce9b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0d8a56f-c562-7db3-f1d7-8dc7a72d14eb" executionId="b08af6a5-6f34-40ec-9c00-e8b60e268302" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf726eca-d932-5819-7038-4b3cf9fa8e01" executionId="c8080cb7-2ae7-4503-b83f-f55455079813" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88830ab2-4f92-6512-22b0-95d80d2dc668" executionId="5f796de8-d714-4121-bad7-ca78da904d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6441705a-2492-102f-434c-484332c3b591" executionId="99812aac-3ff8-4761-a2a5-f43c2be7d8fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22bb378e-8588-e1ca-c066-fb2a2c4c8f96" executionId="e1449815-8f3d-4389-a065-12628cf9451e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e6b03ca-9b12-a9ee-0338-ae347b5f0709" executionId="f1481682-29bb-4ba8-be71-d5a2b6e51d2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28612d42-16d8-6a64-0cc2-33b110fae9ac" executionId="e47f3e0a-8929-4e1b-b203-42aca07f9110" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c1b2fed-ce48-51ea-cdab-b4112027cb62" executionId="cf773327-34da-4c02-97ce-e4821fcb8922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff31bf66-2964-ebd1-d547-625815e119cc" executionId="59432fee-1691-400f-b4ce-ca1729be3a53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81ad9a4c-98ba-3ada-fb41-5beed9fadf38" executionId="7dd35e6f-0cca-493e-afac-ed25349f3b73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fe26c6b-5ca7-ffcc-3174-99266b1a2e0e" executionId="622bc18e-f91a-4565-be57-0c87e50ecafb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f658db1-2c6f-11b9-86fa-adf252dc07b9" executionId="02e3ad57-57bd-44fa-b448-ce4fb7e95c1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f3614f5-b6c9-bf4f-286d-8c5117a34ff9" executionId="7b379d44-79c7-42b1-ab92-e18f9f32eaec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96039d29-442c-1bfe-7d73-ecbab9a16db4" executionId="bcb8506d-3d3c-4241-98de-0a97a879f395" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83eb4606-4e1b-a87c-ad71-87be3df686be" executionId="ed1b4838-2d8e-4be1-89b6-bb4c51b7b3d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6576e316-1fb7-8179-0f8f-edb4521ad491" executionId="77ed1d9d-554e-4643-a961-f5fdfbefb2eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="487e285f-ab60-54b8-51d5-9c7a13729419" executionId="cebc533e-4f45-4e6c-80e2-9c1afc6278ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5761f52c-359d-7d47-0b22-463c4931bbe5" executionId="76335f14-4bab-4b55-8bb0-cf55cc4436e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bbe7df3-283e-10c3-1b8b-028fe14cf334" executionId="378987e8-6eeb-4db3-8339-92f075f45fbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="790d8b1f-634a-22a9-16da-5e93e9d7deac" executionId="bcd211b7-86b3-4605-a10f-aaa523e6e9f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5368fc7-c786-6641-b2a4-5ee18a013ec8" executionId="7ec16acc-5eab-46b5-9556-7d2f1caa62b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0af63270-c2bc-f018-db97-44d18e0bdac3" executionId="40d032df-0478-4be4-abb7-4276f9fe318b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="586741fa-2cb4-cedc-b097-6fc88f80502a" executionId="28e67cee-10df-41d9-854e-8ee0b3521b04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="908eac1a-155d-0759-13f6-d3ec08414f55" executionId="077d55a4-1b37-44b7-b825-d47f657ea483" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba06b205-191c-b4b4-9db8-457ad92c84bd" executionId="53322d2c-929e-4043-bcb0-1338ac231d78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9274d07-8354-f7c5-e605-570528c6992d" executionId="6bfdc000-7ff7-494d-8d29-f3cf0c770a9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1659b24a-72eb-e13b-fedf-6ac17ffc36b9" executionId="eab46e60-9adc-4094-85dd-1bae19ace301" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42efb4a2-0945-1a23-bc99-8cc2bca3bfb0" executionId="6d461857-b2e1-4b98-9238-88b3002ff61e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ed3e914-6119-082e-bb19-a66543abd3fc" executionId="f5e0a1df-23ac-4dd6-ae47-efe622dad8e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da1697cf-004f-0d82-e342-5c050a3176b6" executionId="24911442-a7de-489a-ac10-38db909cfbf6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eb7e4fa-d6fb-8e13-76b5-c4888089fd3d" executionId="dcc725c3-0d84-4c8b-b729-cee044e98865" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80d8f002-9c9a-dbb8-dc80-4012c752f04c" executionId="081f00f3-61db-4e51-a13e-bffc2208231b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a4f4190-28da-c3b0-55c8-00747bd4c8e6" executionId="f7dcfd64-236f-4711-ad5c-7b8b358d2c96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab868924-a030-6779-1b1d-4fd326af7b1f" executionId="12c4c610-765b-4761-b5a8-9804a224e2a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="39" executed="39" passed="39" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.0+00ab0a9ec4 (64-bit .NET 10.0.13)
+[xUnit.net 00:00:00.08]   Discovering: EcoSim.Tests
+[xUnit.net 00:00:00.13]   Discovered:  EcoSim.Tests
+[xUnit.net 00:00:00.16]   Starting:    EcoSim.Tests
+[xUnit.net 00:00:00.27]   Finished:    EcoSim.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

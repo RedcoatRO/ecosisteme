@@ -1,0 +1,13 @@
+{
+  "name": "EcoSim.Editor",
+  "references": [
+    "EcoSim.Client",
+    "EcoSim.Contracts",
+    "EcoSim.Core",
+    "EcoSim.Gameplay",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

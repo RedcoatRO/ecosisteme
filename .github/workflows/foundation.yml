@@ -1,0 +1,30 @@
+name: Foundation
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      build_android:
+        description: Run on an existing licensed Unity Android self-hosted runner
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: bash tools/cloud-install.sh
+      - run: bash tools/verify.sh
+  android:
+    if: github.event_name == 'workflow_dispatch' && inputs.build_android
+    runs-on: [self-hosted, unity-6000.0.66f2-android]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: bash tools/unity-build.sh
+        env:
+          UNITY_EDITOR: ${{ vars.UNITY_EDITOR }}
+          ANDROID_SDK_ROOT: ${{ vars.ANDROID_SDK_ROOT }}
+          ANDROID_TARGET_SDK: ${{ vars.ANDROID_TARGET_SDK }}
+          PLAY_POLICY_CHECKED_ON: ${{ vars.PLAY_POLICY_CHECKED_ON }}

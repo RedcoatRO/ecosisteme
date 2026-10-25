@@ -1,0 +1,16 @@
+{
+  "dotnetSdk": "10.0.402",
+  "coreTarget": "netstandard2.1",
+  "csharp": "9.0",
+  "unityEditor": "6000.0.66f2",
+  "unityReleaseEvidence": "https://github.com/Unity-Technologies/UnityCsReference/tree/6000.0.66f2",
+  "unitySourceTagCommit": "6472489f23c9ac92ba222a431597782907f5921f",
+  "urp": "17.0.4",
+  "urpEvidenceCommit": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+  "androidMinSdk": 34,
+  "androidAbi": "ARM64",
+  "androidTargetSdk": null,
+  "androidTargetSdkStatus": "BLOCKED: must validate current Google Play policy and installed Unity Android SDK before build",
+  "unityPackageLockStatus": "NOT GENERATED: requires licensed pinned Editor and UPM access",
+  "signatureFixEvidence": "https://discussions.unity.com/t/package-manager-error-resolved-new-hub-badge-warning/1706569 (official staff post screenshot supplied by user: 6000.0.66f2 or later)"
+}
